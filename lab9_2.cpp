@@ -2,6 +2,21 @@
 using namespace std;
 
 //Write the function printO() here
+int printO(int row, int col){
+	if (row > 0 && col > 0){
+	for (int i= 0; i < row; i++){ //row แถว
+		for (int j = 0; j < col; j++)
+		{
+			cout << "O";
+		}
+		cout << '\n';
+	}
+	
+	} else {
+	    cout << "Invalid input";    
+	}
+	return 1;
+}
 
 int main(){
 	
